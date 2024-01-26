@@ -1,0 +1,43 @@
+curso de git
+
+Aquí tienes una lista de comandos básicos de Git que son comúnmente utilizados en el día a día. Estos comandos te permitirán gestionar tu repositorio de Git:
+
+Configuración inicial:
+
+git config --global user.name "Tu Nombre": Configura tu nombre de usuario.
+git config --global user.email "tu@email.com": Configura tu dirección de correo electrónico.
+git config --global core.editor "nombre_del_editor": Configura tu editor preferido para mensajes de commit.
+Creación y clonación de repositorios:
+
+git init: Inicia un nuevo repositorio Git en el directorio actual.
+git clone URL: Clona un repositorio remoto en tu máquina.
+Gestión de cambios:
+
+git add nombre_del_archivo: Añade cambios al área de preparación.
+git add . o git add -A: Añade todos los cambios al área de preparación.
+git commit -m "Mensaje del commit": Crea un nuevo commit con los cambios del área de preparación.
+git commit -am "Mensaje del commit": Añade y realiza commit de los cambios en un solo comando.
+git status: Muestra el estado actual de tu repositorio.
+Navegación por el historial:
+
+git log: Muestra el historial de commits.
+git log --oneline: Muestra el historial de commits en una línea por commit.
+git diff commit_A commit_B: Muestra las diferencias entre dos commits específicos.
+Branches:
+
+git branch: Muestra una lista de branches locales.
+git branch nombre_del_branch: Crea un nuevo branch.
+git checkout nombre_del_branch: Cambia al branch especificado.
+git merge nombre_del_branch: Fusiona cambios desde otro branch al branch actual.
+git branch -d nombre_del_branch: Elimina un branch.
+Trabajo con remotos:
+
+git remote -v: Muestra los remotos asociados con el repositorio.
+git fetch: Descarga cambios del remoto pero no los fusiona.
+git pull: Descarga cambios del remoto y los fusiona en tu branch actual.
+git push nombre_del_remoto nombre_del_branch: Sube tus cambios a un remoto.
+Desfacer cambios:
+
+git reset --hard HEAD: Deshace todos los cambios en el directorio de trabajo y el área de preparación.
+git revert commit_A: Crea un nuevo commit que deshace los cambios de un commit específico.
+Estos son solo algunos de los comandos básicos de Git. Hay muchos más comandos y opciones, pero estos deberían ser suficientes para comenzar. Puedes obtener más información sobre cualquier comando específico utilizando git help nombre_del_comando en la terminal.
